@@ -7,38 +7,41 @@ PART OF ASSIGNMENT 5 (LINUXOS + LSP)
 # ✅ FEATURES
 ## 1) BACKUP SCRIPT
 
-COMPRESSES selected user folders
+-Compresses selected user folders
 
-Saves timestamped .tar.gz backups to backups/
+-Saves timestamped .tar.gz backups to backups/
 
-LOGS ACTIVITY to logs/script_logs.txt
+-Logs all activity to logs/script_logs.txt
 
-Ensures reliable & consistent folder backup automation
+-Ensures reliable & consistent folder backup automation
 
 ## 2) SYSTEM UPDATE & CLEANUP SCRIPT
 
-Runs essential system maintenance commands:
+-Runs: 
 
-apt update
-apt upgrade
-autoremove
-autoclean
+*apt update  
 
-MAINTAINS SYSTEM HEALTH
+*apt upgrade  
 
-IMPROVES PERFORMANCE & SECURITY
+*autoremove  
 
-LOGS ALL OUTPUT for review
+*autoclean
+
+-MAINTAINS SYSTEM HEALTH
+
+-IMPROVES PERFORMANCE & SECURITY
+
+-LOGS ALL OUTPUT for review
 
 ## 3. **Log Monitoring Script**
 
- Monitors /var/log/syslog & /var/log/auth.log in real time
+ -Monitors /var/log/syslog & /var/log/auth.log in real time
 
- Detects patterns (configurable in log_monitor.conf)
+ -Detects patterns (configurable in log_monitor.conf)
 
-Alerts stored in script_logs.txt
+-Alerts stored in script_logs.txt
 
-Optional email alerts using mail command
+-Optional email alerts using mail command
 
 ## 4. **Maintenance Menu**
 
