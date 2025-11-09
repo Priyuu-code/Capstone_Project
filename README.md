@@ -4,7 +4,7 @@ A modular suite of Bash scripts designed for Linux systems to automate routine m
 
 PART OF ASSIGNMENT 5 (LINUXOS + LSP)
 
-FEATURES
+✅FEATURES
 1) BACKUP SCRIPT
 
 COMPRESSES selected user folders
@@ -50,7 +50,7 @@ Interactive menu to run all tools from one place:
 4) View Script Logs
 5) Exit
 
-⚙️ Installation & Setup
+✅ Installation & Setup
 1. Make scripts executable
 cd scripts
 chmod +x *.sh
