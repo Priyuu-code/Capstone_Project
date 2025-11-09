@@ -52,7 +52,7 @@ Interactive menu to run all tools from one place:
 
 ---
 # ✅ Installation & Setup
-## 1. Make scripts executable
+
 
 ### 1. Make scripts executable
 
