@@ -53,16 +53,22 @@ Interactive menu to run all tools from one place:
 # ✅ Installation & Setup
 ## 1. Make scripts executable
 
-cd scripts  
+### 1. Make scripts executable
+
+From inside the scripts folder:
+
+```bash
+cd scripts
 chmod +x *.sh
 
-cd Assignment5/scripts  \
+cd Assignment5/scripts
 ./maintenance_menu.sh
 
 1) Run Backup
 2) Perform System Update & Cleanup
 3) Start Log Monitor (live)
-4) View Script logs 
+4) View Script Logs
 5) Exit
+
 
    
