@@ -1,19 +1,22 @@
-A modular suite of Bash scripts designed for Linux systems to automate routine maintenance tasks, including system backups, updates, cleanup, and log monitoring.
+BASH SCRIPTING SUITE FOR SYSTEM MAINTENANCE
 
-📌 This project is part of Assignment 5 (LinuxOS + LSP).
+A modular suite of Bash scripts designed for Linux systems to automate routine maintenance tasks such as system backups, updates, cleanup, and log monitoring.
 
-✅ Features
-1. **Backup Script**
+PART OF ASSIGNMENT 5 (LINUXOS + LSP)
 
- Compresses selected user folders
+FEATURES
+1) BACKUP SCRIPT
 
-Stores timestamped *.tar.gz backups in backups/
+COMPRESSES selected user folders
 
- Logs activity in logs/script_logs.txt
+Saves timestamped .tar.gz backups to backups/
 
-2. **System Update & Cleanup Script**
+LOGS ACTIVITY to logs/script_logs.txt
 
-Runs:
+Ensures reliable & consistent folder backup automation
+) SYSTEM UPDATE & CLEANUP SCRIPT
+
+Runs essential system maintenance commands:
 
 apt update
 apt upgrade
@@ -21,9 +24,11 @@ autoremove
 autoclean
 
 
- Helps maintain system integrity
+MAINTAINS SYSTEM HEALTH
 
- Logs all output
+IMPROVES PERFORMANCE & SECURITY
+
+LOGS ALL OUTPUT for review
 
 3. **Log Monitoring Script**
 
@@ -50,8 +55,13 @@ Interactive menu to run all tools from one place:
 cd scripts
 chmod +x *.sh
 
-2. Run the maintenance menu
 cd Assignment5/scripts
 ./maintenance_menu.sh
+
+1) Run Backup
+2) Perform System Update & Cleanup
+3) Start Log Monitor (live)
+4) View Script logs 
+5) Exit
 
    
