@@ -54,11 +54,9 @@ Interactive menu to run all tools from one place:
 ## 1. Make scripts executable
 
 cd scripts  
-
 chmod +x *.sh
 
 cd Assignment5/scripts  \
-
 ./maintenance_menu.sh
 
 1) Run Backup
