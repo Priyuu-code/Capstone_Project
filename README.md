@@ -3,7 +3,7 @@ A modular suite of Bash scripts designed for Linux systems to automate routine m
 📌 This project is part of Assignment 5 (LinuxOS + LSP).
 
 ✅ Features
-1. Backup Script
+1. **Backup Script**
 
  Compresses selected user folders
 
@@ -11,7 +11,7 @@ Stores timestamped *.tar.gz backups in backups/
 
  Logs activity in logs/script_logs.txt
 
-2. System Update & Cleanup Script
+2. **System Update & Cleanup Script**
 
 Runs:
 
@@ -25,7 +25,7 @@ autoclean
 
  Logs all output
 
-3. Log Monitoring Script
+3. **Log Monitoring Script**
 
  Monitors /var/log/syslog & /var/log/auth.log in real time
 
@@ -35,7 +35,7 @@ Alerts stored in script_logs.txt
 
 Optional email alerts using mail command
 
-4. Maintenance Menu
+4. **Maintenance Menu**
 
 Interactive menu to run all tools from one place:
 
