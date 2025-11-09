@@ -50,8 +50,9 @@ Interactive menu to run all tools from one place:
 4) View Script Logs
 5) Exit
 
-## ✅ Installation & Setup
-1. Make scripts executable
+# ✅ Installation & Setup
+## 1. Make scripts executable
+
 cd scripts
 chmod +x *.sh
 
