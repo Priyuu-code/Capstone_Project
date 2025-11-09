@@ -53,10 +53,12 @@ Interactive menu to run all tools from one place:
 # ✅ Installation & Setup
 ## 1. Make scripts executable
 
-cd scripts
+cd scripts  
+
 chmod +x *.sh
 
-cd Assignment5/scripts
+cd Assignment5/scripts  \
+
 ./maintenance_menu.sh
 
 1) Run Backup
